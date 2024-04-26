@@ -54,7 +54,7 @@ function reducer(state, action) {
 }
 
 export default function App() {
-  // implement useReducer
+  // implement useReducer and destructure state
   const [{ balance, loan, isActive }, dispatch] = useReducer(
     reducer,
     initialState
